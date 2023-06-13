@@ -6,13 +6,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 public class login_page {
 
-	@FindBy(xpath="//*[@id=\"email\"]")
+	@FindBy(xpath="//div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/input[1]")
 	private WebElement Enter_Login_Email;
 
-	@FindBy(xpath="//*[@id=\"password\"]")
+	@FindBy(xpath="//div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/input[1]")
 	private  WebElement Enter_Password;
 
-	@FindBy(xpath="//button[@type='button']")
+	@FindBy(xpath="//div[1]/div[1]/div[2]/div[1]/div[4]/button[1]")
 	private WebElement click_on_Submit_btn;
 
 	public WebDriver driver;
@@ -102,11 +102,11 @@ public class login_page {
 		click_on_Submit_btn.click();
 		System.out.println("click on Submit  Buutton");
 		Thread.sleep(3000);
-		
+
 		Enter_Login_Email.clear();
 		Thread.sleep(1000);
 		Enter_Login_Email.sendKeys(Keys.CONTROL+"A");
-		
+
 		Enter_Password.clear();
 		Thread.sleep(3000);
 		Enter_Password.sendKeys(Keys.CONTROL+"A");
@@ -115,43 +115,23 @@ public class login_page {
 
 	public void scneario6() throws InterruptedException {
 
-	
+
 
 		Enter_Login_Email.sendKeys("aniket@hunar.ai");
-		System.out.println("entering Correct E-mail");
-		Thread.sleep(3000);
+		System.out.println("Enter E-mail");
+		Thread.sleep(5000);
 
 		Enter_Password.sendKeys("T48ead#wa9");
-		System.out.println("entering correct password");
-		Thread.sleep(3000);
+		System.out.println("Enter password");
+		Thread.sleep(5000);
 
 		click_on_Submit_btn.click();
-		System.out.println("click on Submit  Buutton");
-		Thread.sleep(10000);
+		System.out.println("click on Submit Buutton");
+		Thread.sleep(3000);
+		
+		
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

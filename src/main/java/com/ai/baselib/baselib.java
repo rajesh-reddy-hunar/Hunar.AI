@@ -25,7 +25,7 @@ public class baselib {
 
 		//options.addArguments("--headless");
 		driver = new ChromeDriver(options);
-		driver.get("https://qualification-module--resplendent-unicorn-271751.netlify.app/company/bluejay-work-11/signin");
+		driver.get("https://dev--resplendent-unicorn-271751.netlify.app/company/bluejay-work-11/signin");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		String actualTitle = "Hunar";
 		System.out.println("Landing Hunar Page");

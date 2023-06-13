@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ai.test.Add_newWorker_test">
+      <class name="com.ai.test.Campaign_page_test">
         <methods>
-          <include name="Add"/>
           <include name="launchBrowser"/>
           <include name="postCondition"/>
+          <include name="Listing"/>
         </methods>
-      </class> <!-- com.ai.test.Add_newWorker_test -->
+      </class> <!-- com.ai.test.Campaign_page_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -18,4 +18,16 @@ public class leads_page_test extends baselib{
 		leads_page LP= new leads_page(driver);
 		LP.scneario1();
 
-	}}
+	}
+	@Test (priority = 3)
+	public void Customize() throws InterruptedException {
+		leads_page LP= new leads_page(driver);
+		LP.scneario2();
+}
+	
+	@Test (priority = 3)
+	public void pagination() throws InterruptedException {
+		leads_page LP= new leads_page(driver);
+		LP.scneario2();
+}
+}

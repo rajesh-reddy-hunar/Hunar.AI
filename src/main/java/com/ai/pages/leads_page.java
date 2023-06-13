@@ -187,9 +187,7 @@ public class leads_page {
 		System.out.println("click on sure btn");
 		Thread.sleep(3000);
 
-		click_on_Customize.click();
-		System.out.println("click on customize btn");
-		Thread.sleep(3000);
+
 
 		Mobile_number_checkbox.click();
 		System.out.println("clicking on  Mobile number checkbox");
@@ -201,6 +199,16 @@ public class leads_page {
 
 		Education_qualification_checkbox.click();
 		System.out.println("click on education qualification checkbox");
+		Thread.sleep(3000);
+
+
+
+	}
+	public void scneario2() throws InterruptedException {
+
+
+		click_on_Customize.click();
+		System.out.println("click on customize btn");
 		Thread.sleep(3000);
 
 		English_proficiency_checkbox.click();
@@ -307,6 +315,15 @@ public class leads_page {
 		System.out.println("click on save btn");
 		Thread.sleep(3000);
 
+		
+		
+	}
+	public void scneario3() throws InterruptedException {	
+		
+		
+		
+		
+		
 		click_on_Pagination.click();
 		System.out.println("click on Pagination");
 		Thread.sleep(4000);

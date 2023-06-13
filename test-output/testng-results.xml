@@ -5,68 +5,72 @@
       <![CDATA[Screenshot has been taken]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-29T16:22:05 IST" name="Default suite" finished-at="2023-05-29T16:23:33 IST" duration-ms="87715">
+  <suite started-at="2023-06-13T09:55:38 IST" name="Default suite" finished-at="2023-06-13T09:58:02 IST" duration-ms="143733">
     <groups>
     </groups>
-    <test started-at="2023-05-29T16:22:05 IST" name="Default test" finished-at="2023-05-29T16:23:33 IST" duration-ms="87715">
-      <class name="com.ai.test.Add_newWorker_test">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.ai.test.Add_newWorker_test@909217e]" started-at="2023-05-29T16:22:05 IST" name="launchBrowser" finished-at="2023-05-29T16:22:11 IST" duration-ms="5457" status="PASS">
+    <test started-at="2023-06-13T09:55:38 IST" name="Default test" finished-at="2023-06-13T09:58:02 IST" duration-ms="143733">
+      <class name="com.ai.test.Campaign_page_test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.ai.test.Campaign_page_test@909217e]" started-at="2023-06-13T09:55:38 IST" name="launchBrowser" finished-at="2023-06-13T09:55:42 IST" duration-ms="3692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="login_validation()[pri:1, instance:com.ai.test.Add_newWorker_test@909217e]" started-at="2023-05-29T16:22:11 IST" name="login_validation" finished-at="2023-05-29T16:22:28 IST" duration-ms="16904" status="PASS">
+        <test-method signature="login_validation()[pri:1, instance:com.ai.test.Campaign_page_test@909217e]" started-at="2023-06-13T09:55:42 IST" name="login_validation" finished-at="2023-06-13T09:55:56 IST" duration-ms="13517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_validation -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.ai.test.Add_newWorker_test@909217e]" started-at="2023-05-29T16:22:28 IST" name="postCondition" finished-at="2023-05-29T16:22:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.ai.test.Campaign_page_test@909217e]" started-at="2023-06-13T09:55:56 IST" name="postCondition" finished-at="2023-06-13T09:55:56 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login_validation status=SUCCESS method=Add_newWorker_test.login_validation()[pri:1, instance:com.ai.test.Add_newWorker_test@909217e] output={null}]]]>
+                <![CDATA[[TestResult name=login_validation status=SUCCESS method=Campaign_page_test.login_validation()[pri:1, instance:com.ai.test.Campaign_page_test@909217e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method signature="Add_new_worker()[pri:2, instance:com.ai.test.Add_newWorker_test@909217e]" started-at="2023-05-29T16:22:28 IST" name="Add_new_worker" finished-at="2023-05-29T16:22:37 IST" duration-ms="9608" status="PASS">
+        <test-method signature="Campaigns()[pri:2, instance:com.ai.test.Campaign_page_test@909217e]" started-at="2023-06-13T09:55:56 IST" name="Campaigns" finished-at="2023-06-13T09:56:56 IST" duration-ms="59851" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Add_new_worker -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.ai.test.Add_newWorker_test@909217e]" started-at="2023-05-29T16:22:37 IST" name="postCondition" finished-at="2023-05-29T16:22:37 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- Campaigns -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.ai.test.Campaign_page_test@909217e]" started-at="2023-06-13T09:56:56 IST" name="postCondition" finished-at="2023-06-13T09:56:56 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Add_new_worker status=SUCCESS method=Add_newWorker_test.Add_new_worker()[pri:2, instance:com.ai.test.Add_newWorker_test@909217e] output={null}]]]>
+                <![CDATA[[TestResult name=Campaigns status=SUCCESS method=Campaign_page_test.Campaigns()[pri:2, instance:com.ai.test.Campaign_page_test@909217e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method signature="Add()[pri:3, instance:com.ai.test.Add_newWorker_test@909217e]" started-at="2023-05-29T16:22:37 IST" name="Add" finished-at="2023-05-29T16:23:32 IST" duration-ms="55180" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method signature="Listing()[pri:3, instance:com.ai.test.Campaign_page_test@909217e]" started-at="2023-06-13T09:56:56 IST" name="Listing" finished-at="2023-06-13T09:58:02 IST" duration-ms="66349" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=113.0.5672.127)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button[1]"}
+  (Session info: chrome=114.0.5735.110)
   (Driver info: chromedriver=113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}),platform=Windows NT 10.0.22621 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 54 milliseconds
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'LAPTOP-NVD7B84R', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+System info: host: 'LAPTOP-NVD7B84R', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:56669}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}), userDataDir=C:\Users\RAJESH~1\AppData\Local\Temp\scoped_dir50220_314315754}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=113.0.5672.127, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: ec32003126b5be15ef13140dffac5861]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64934}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}), userDataDir=C:\Users\RAJESH~1\AppData\Local\Temp\scoped_dir28244_1504094422}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=114.0.5735.110, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3fb75dd614bdead854b8441de05ed679
+*** Element info: {Using=xpath, value=//body[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: element not interactable
-  (Session info: chrome=113.0.5672.127)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button[1]"}
+  (Session info: chrome=114.0.5735.110)
   (Driver info: chromedriver=113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}),platform=Windows NT 10.0.22621 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 54 milliseconds
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'LAPTOP-NVD7B84R', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+System info: host: 'LAPTOP-NVD7B84R', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:56669}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}), userDataDir=C:\Users\RAJESH~1\AppData\Local\Temp\scoped_dir50220_314315754}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=113.0.5672.127, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: ec32003126b5be15ef13140dffac5861
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64934}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}), userDataDir=C:\Users\RAJESH~1\AppData\Local\Temp\scoped_dir28244_1504094422}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=114.0.5735.110, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3fb75dd614bdead854b8441de05ed679
+*** Element info: {Using=xpath, value=//body[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button[1]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -75,16 +79,15 @@ at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
-at com.ai.pages.Add_New_Workers.scneario2(Add_New_Workers.java:351)
-at com.ai.test.Add_newWorker_test.Add(Add_newWorker_test.java:28)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+at com.ai.pages.Campaigns_page.scneario2(Campaigns_page.java:354)
+at com.ai.test.Campaign_page_test.Listing(Campaign_page_test.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,15 +118,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Add -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.ai.test.Add_newWorker_test@909217e]" started-at="2023-05-29T16:23:32 IST" name="postCondition" finished-at="2023-05-29T16:23:33 IST" duration-ms="473" status="PASS">
+        </test-method> <!-- Listing -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.ai.test.Campaign_page_test@909217e]" started-at="2023-06-13T09:58:02 IST" name="postCondition" finished-at="2023-06-13T09:58:02 IST" duration-ms="254" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Add status=FAILURE method=Add_newWorker_test.Add()[pri:3, instance:com.ai.test.Add_newWorker_test@909217e] output={null}]]]>
+                <![CDATA[[TestResult name=Listing status=FAILURE method=Campaign_page_test.Listing()[pri:3, instance:com.ai.test.Campaign_page_test@909217e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -133,7 +136,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- com.ai.test.Add_newWorker_test -->
+      </class> <!-- com.ai.test.Campaign_page_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
